@@ -87,15 +87,10 @@
 		CD87176523170DA200CCD64A /* GettingDataFromOnline */ = {
 			isa = PBXGroup;
 			children = (
-				CD87176623170DA200CCD64A /* AppDelegate.swift */,
-				CD87176823170DA200CCD64A /* JokesViewController.swift */,
-				CD87178623170DC800CCD64A /* NetworkHelper.swift */,
-				CD87178C23181C1A00CCD64A /* NetworkError.swift */,
-				CD8717882317141A00CCD64A /* JokeFetchingService.swift */,
-				CD87178E23181C5500CCD64A /* JokeError.swift */,
-				CD87178A2317146100CCD64A /* Joke.swift */,
+				CD871792231855ED00CCD64A /* Supporting Files */,
+				CD871791231855CA00CCD64A /* Joke */,
+				CD871790231855A800CCD64A /* Networking */,
 				CD87176A23170DA200CCD64A /* Main.storyboard */,
-				CD87176D23170DA600CCD64A /* Assets.xcassets */,
 				CD87176F23170DA600CCD64A /* LaunchScreen.storyboard */,
 				CD87177223170DA600CCD64A /* Info.plist */,
 			);
@@ -109,6 +104,35 @@
 				CD87177D23170DA600CCD64A /* Info.plist */,
 			);
 			path = GettingDataFromOnlineTests;
+			sourceTree = "<group>";
+		};
+		CD871790231855A800CCD64A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CD87178623170DC800CCD64A /* NetworkHelper.swift */,
+				CD87178C23181C1A00CCD64A /* NetworkError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CD871791231855CA00CCD64A /* Joke */ = {
+			isa = PBXGroup;
+			children = (
+				CD87176823170DA200CCD64A /* JokesViewController.swift */,
+				CD8717882317141A00CCD64A /* JokeFetchingService.swift */,
+				CD87178E23181C5500CCD64A /* JokeError.swift */,
+				CD87178A2317146100CCD64A /* Joke.swift */,
+			);
+			path = Joke;
+			sourceTree = "<group>";
+		};
+		CD871792231855ED00CCD64A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD87176623170DA200CCD64A /* AppDelegate.swift */,
+				CD87176D23170DA600CCD64A /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

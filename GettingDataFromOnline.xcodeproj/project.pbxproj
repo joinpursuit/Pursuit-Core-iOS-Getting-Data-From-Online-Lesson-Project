@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD87176723170DA200CCD64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD87176623170DA200CCD64A /* AppDelegate.swift */; };
+		CD87176923170DA200CCD64A /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD87176823170DA200CCD64A /* JokesViewController.swift */; };
+		CD87176C23170DA200CCD64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD87176A23170DA200CCD64A /* Main.storyboard */; };
+		CD87176E23170DA600CCD64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD87176D23170DA600CCD64A /* Assets.xcassets */; };
+		CD87177123170DA600CCD64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD87176F23170DA600CCD64A /* LaunchScreen.storyboard */; };
+		CD87177C23170DA600CCD64A /* GettingDataFromOnlineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD87177B23170DA600CCD64A /* GettingDataFromOnlineTests.swift */; };
+		CD87178723170DC800CCD64A /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD87178623170DC800CCD64A /* NetworkHelper.swift */; };
+		CD8717892317141A00CCD64A /* JokeFetchingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8717882317141A00CCD64A /* JokeFetchingService.swift */; };
+		CD87178B2317146100CCD64A /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD87178A2317146100CCD64A /* Joke.swift */; };
+		CD87178D23181C1A00CCD64A /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD87178C23181C1A00CCD64A /* NetworkError.swift */; };
+		CD87178F23181C5500CCD64A /* JokeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD87178E23181C5500CCD64A /* JokeError.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD87177823170DA600CCD64A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD87175B23170DA200CCD64A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD87176223170DA200CCD64A;
+			remoteInfo = GettingDataFromOnline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD87176323170DA200CCD64A /* GettingDataFromOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GettingDataFromOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD87176623170DA200CCD64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD87176823170DA200CCD64A /* JokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = "<group>"; };
+		CD87176B23170DA200CCD64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD87176D23170DA600CCD64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD87177023170DA600CCD64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD87177223170DA600CCD64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD87177723170DA600CCD64A /* GettingDataFromOnlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GettingDataFromOnlineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD87177B23170DA600CCD64A /* GettingDataFromOnlineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingDataFromOnlineTests.swift; sourceTree = "<group>"; };
+		CD87177D23170DA600CCD64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD87178623170DC800CCD64A /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		CD8717882317141A00CCD64A /* JokeFetchingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeFetchingService.swift; sourceTree = "<group>"; };
+		CD87178A2317146100CCD64A /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		CD87178C23181C1A00CCD64A /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		CD87178E23181C5500CCD64A /* JokeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeError.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD87176023170DA200CCD64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD87177423170DA600CCD64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD87175A23170DA200CCD64A = {
+			isa = PBXGroup;
+			children = (
+				CD87176523170DA200CCD64A /* GettingDataFromOnline */,
+				CD87177A23170DA600CCD64A /* GettingDataFromOnlineTests */,
+				CD87176423170DA200CCD64A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD87176423170DA200CCD64A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD87176323170DA200CCD64A /* GettingDataFromOnline.app */,
+				CD87177723170DA600CCD64A /* GettingDataFromOnlineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD87176523170DA200CCD64A /* GettingDataFromOnline */ = {
+			isa = PBXGroup;
+			children = (
+				CD87176623170DA200CCD64A /* AppDelegate.swift */,
+				CD87176823170DA200CCD64A /* JokesViewController.swift */,
+				CD87178623170DC800CCD64A /* NetworkHelper.swift */,
+				CD87178C23181C1A00CCD64A /* NetworkError.swift */,
+				CD8717882317141A00CCD64A /* JokeFetchingService.swift */,
+				CD87178E23181C5500CCD64A /* JokeError.swift */,
+				CD87178A2317146100CCD64A /* Joke.swift */,
+				CD87176A23170DA200CCD64A /* Main.storyboard */,
+				CD87176D23170DA600CCD64A /* Assets.xcassets */,
+				CD87176F23170DA600CCD64A /* LaunchScreen.storyboard */,
+				CD87177223170DA600CCD64A /* Info.plist */,
+			);
+			path = GettingDataFromOnline;
+			sourceTree = "<group>";
+		};
+		CD87177A23170DA600CCD64A /* GettingDataFromOnlineTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD87177B23170DA600CCD64A /* GettingDataFromOnlineTests.swift */,
+				CD87177D23170DA600CCD64A /* Info.plist */,
+			);
+			path = GettingDataFromOnlineTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD87176223170DA200CCD64A /* GettingDataFromOnline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD87178023170DA600CCD64A /* Build configuration list for PBXNativeTarget "GettingDataFromOnline" */;
+			buildPhases = (
+				CD87175F23170DA200CCD64A /* Sources */,
+				CD87176023170DA200CCD64A /* Frameworks */,
+				CD87176123170DA200CCD64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GettingDataFromOnline;
+			productName = GettingDataFromOnline;
+			productReference = CD87176323170DA200CCD64A /* GettingDataFromOnline.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD87177623170DA600CCD64A /* GettingDataFromOnlineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD87178323170DA600CCD64A /* Build configuration list for PBXNativeTarget "GettingDataFromOnlineTests" */;
+			buildPhases = (
+				CD87177323170DA600CCD64A /* Sources */,
+				CD87177423170DA600CCD64A /* Frameworks */,
+				CD87177523170DA600CCD64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD87177923170DA600CCD64A /* PBXTargetDependency */,
+			);
+			name = GettingDataFromOnlineTests;
+			productName = GettingDataFromOnlineTests;
+			productReference = CD87177723170DA600CCD64A /* GettingDataFromOnlineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD87175B23170DA200CCD64A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Benjamin Stone";
+				TargetAttributes = {
+					CD87176223170DA200CCD64A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					CD87177623170DA600CCD64A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CD87176223170DA200CCD64A;
+					};
+				};
+			};
+			buildConfigurationList = CD87175E23170DA200CCD64A /* Build configuration list for PBXProject "GettingDataFromOnline" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD87175A23170DA200CCD64A;
+			productRefGroup = CD87176423170DA200CCD64A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD87176223170DA200CCD64A /* GettingDataFromOnline */,
+				CD87177623170DA600CCD64A /* GettingDataFromOnlineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD87176123170DA200CCD64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD87177123170DA600CCD64A /* LaunchScreen.storyboard in Resources */,
+				CD87176E23170DA600CCD64A /* Assets.xcassets in Resources */,
+				CD87176C23170DA200CCD64A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD87177523170DA600CCD64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD87175F23170DA200CCD64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD87176923170DA200CCD64A /* JokesViewController.swift in Sources */,
+				CD87178B2317146100CCD64A /* Joke.swift in Sources */,
+				CD87178723170DC800CCD64A /* NetworkHelper.swift in Sources */,
+				CD87178D23181C1A00CCD64A /* NetworkError.swift in Sources */,
+				CD87178F23181C5500CCD64A /* JokeError.swift in Sources */,
+				CD8717892317141A00CCD64A /* JokeFetchingService.swift in Sources */,
+				CD87176723170DA200CCD64A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD87177323170DA600CCD64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD87177C23170DA600CCD64A /* GettingDataFromOnlineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD87177923170DA600CCD64A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD87176223170DA200CCD64A /* GettingDataFromOnline */;
+			targetProxy = CD87177823170DA600CCD64A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD87176A23170DA200CCD64A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD87176B23170DA200CCD64A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD87176F23170DA600CCD64A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD87177023170DA600CCD64A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD87177E23170DA600CCD64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD87177F23170DA600CCD64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD87178123170DA600CCD64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GettingDataFromOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pursuit.GettingDataFromOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD87178223170DA600CCD64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GettingDataFromOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pursuit.GettingDataFromOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD87178423170DA600CCD64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GettingDataFromOnlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pursuit.GettingDataFromOnlineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GettingDataFromOnline.app/GettingDataFromOnline";
+			};
+			name = Debug;
+		};
+		CD87178523170DA600CCD64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GettingDataFromOnlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pursuit.GettingDataFromOnlineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GettingDataFromOnline.app/GettingDataFromOnline";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD87175E23170DA200CCD64A /* Build configuration list for PBXProject "GettingDataFromOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD87177E23170DA600CCD64A /* Debug */,
+				CD87177F23170DA600CCD64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD87178023170DA600CCD64A /* Build configuration list for PBXNativeTarget "GettingDataFromOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD87178123170DA600CCD64A /* Debug */,
+				CD87178223170DA600CCD64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD87178323170DA600CCD64A /* Build configuration list for PBXNativeTarget "GettingDataFromOnlineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD87178423170DA600CCD64A /* Debug */,
+				CD87178523170DA600CCD64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD87175B23170DA200CCD64A /* Project object */;
+}
